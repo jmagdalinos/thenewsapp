@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TheNewsApp</string>
+
+    <!-- Error messages -->
+    <string name="text_view_no_internet">No Internet Connection.\nPlease try again later</string>
+    <string name="text_view_no_articles"> No articles available.\nPlease check your internet
+    connection\nand try again later</string>
+
+    <!-- Content Descriptions -->
+    <string name="article_item_arrow">Go to article</string>
+    <string name="article_item_date">Publication date icon</string>
+</resources>

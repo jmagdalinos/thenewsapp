@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Article item -->
+    <dimen name="article_item_padding">8dp</dimen>
+    <dimen name="article_item_height">110dp</dimen>
+    <dimen name="article_item_text_padding">8dp</dimen>
+</resources>
