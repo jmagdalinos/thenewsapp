@@ -30,4 +30,4 @@ Unit and Implementation tests to be added soon
 **John Magdalinos** - *Initial work*
 
 ## License
-This project is licensed under the Apache License
+This project is licensed under the Apache License. See [LICENSE.md](LICENSE.md)
