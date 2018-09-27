@@ -18,8 +18,8 @@ package com.johnmagdalinos.android.thenewsapp.viewmodel
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.ViewModel
-import com.johnmagdalinos.android.thenewsapp.model.Article
 import com.johnmagdalinos.android.thenewsapp.Repository
+import com.johnmagdalinos.android.thenewsapp.model.Article
 
 /**
  * ViewModel used with the MainFragment.
@@ -27,9 +27,11 @@ import com.johnmagdalinos.android.thenewsapp.Repository
 class MainViewModel(private val repository: Repository): ViewModel() {
     private var articleList: LiveData<List<Article>>? = null
 
+    /** Initialize the articleList */
     fun init(shouldUpdate: Boolean) {
         articleList = repository.getArticles(shouldUpdate)
     }
 
+    /** Retrieves the articleList */
     fun getAllArticles(): LiveData<List<Article>>? = articleList
 }
